@@ -1,2 +1,3 @@
 # bagofinfinitegames.github.io
-homepage
+
+visit our homepage at http://www.bagofinfinitegames.com
