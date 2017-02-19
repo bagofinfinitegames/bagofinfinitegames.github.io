@@ -1,15 +1,23 @@
+
 * {
-  /*color: red;*/
   text-align: center;
 }
 
-body {
-  background-color: grey;
+html, body {
+  background: grey;
+  height: 100%;
+}
 
+#body {
+  background: grey;
+  padding-bottom: 50px;
+  min-height: 80%;
 }
 
 header {
-  background-color: black;
+  padding-top: 15px;
+  background: black;
+  height: 75px;
 }
 
 
@@ -17,14 +25,20 @@ header {
   text-align: right;
 }
 
+.plain-list {
+  list-style-type: none;
+}
+.plain-list li {
+  display: inline;
+  padding: 5px;
+}
+
 hr {
   width: 80%;
+  border: dashed black 1px;
 }
 
 footer {
-  padding: 15px;
-  background-color: dimgrey;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  padding: 35px 15px;
+  background: dimgrey;
 }
